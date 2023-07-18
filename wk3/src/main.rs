@@ -137,8 +137,5 @@ fn main() -> io::Result<()> {
         }else{
             println!("Invalid command")
         }
-        println!("echo {:?}",buffer);
     }
-    
-    Ok(())
 }
