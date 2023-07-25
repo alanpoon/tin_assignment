@@ -31,11 +31,14 @@ impl A for SmallC{
 fn main() {
     
     let my_vec = MyVec(vec![SmallA(1),SmallA(2),SmallA(3)]);
-    println!("printing small a !{:?}",my_vec.print());
+    my_vec.print();
+    println!("printing small a !");
     
     let my_vec2 = MyVec(vec![SmallB(1),SmallB(2),SmallB(3)]);
-    println!("printing small b !{:?}",my_vec2.print());
+    my_vec2.print();
+    println!("printing small b !");
     
     let my_vec3 = MyVec(vec![SmallC(1),SmallC(2),SmallC(3)]);
-    println!("printling small c !{:?}",my_vec3.print());
+    my_vec3.print();
+    println!("printing small c !");
 }
