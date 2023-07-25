@@ -10,7 +10,9 @@ impl <T>MyVec<T> where T:A{
         }
     }
 }
+
 struct SmallA(i32);
+另一种方法可用enum
 impl A for SmallA{
     fn trailling_letter(&self)->String{
         format!("{}{:?}",self.0,"a")
